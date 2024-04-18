@@ -1,0 +1,19 @@
+1 - R=/ que el == es se puede tener se utiliza para comparar que sea igual por ejemplo 3 o "3" aunque este entra comillas sigue siendo el mismo 3,
+pero el === es estricto los 2 tienen que ser enteros.
+
+2- R=/Un switch en javascript se utiliza para optimizar o no redundancia con muchos if por ejemplo
+
+3- R=/
+
+4- R=/
+
+5- R=/ Es para hacer una comparacion entre 2 numeros > mayor que < menor que == igual que 
+EJ1=let n1 = parseInt(process.argv[2]);
+    let n2 = parseInt(process.argv[3]);
+
+    if (n1 > n2) {
+        console.log(`El numero ${n1} es mayor que ${n2}`);
+    }else{
+        console.log(`El numero ${n2} es mayor que ${n1}`);
+    }
+EJ2=
