@@ -1,19 +1,28 @@
 1 - R=/ que el == es se puede tener se utiliza para comparar que sea igual por ejemplo 3 o "3" aunque este entra comillas sigue siendo el mismo 3,
 pero el === es estricto los 2 tienen que ser enteros.
 
-2- R=/Un switch en javascript se utiliza para optimizar o no redundancia con muchos if por ejemplo
+2- R=/Un switch en javascript se utiliza para optimizar o no redundancia de no tener muchos if hacen lo mismo si se cumple el case.
 
-3- R=/
 
-4- R=/
+3- R=/Un array es una lista, una colección de elementos & un objeto es la instancia de una clase.
+    Array  let numeros = [0,1,2,3,4,5]
+    Objeto let persona = { nombre: 'Juan', edad: 30, profesion: 'Ingeniero'}
+
+4- R=/es algo parecido al condicional if/else de una forma mucho más compacta y breve, que en muchos casos resulta más legible.
+    const num = [1,2,3,4,5,6,7,8,9,10];
+    console.log(num.filter(i => i > 5));
 
 5- R=/ Es para hacer una comparacion entre 2 numeros > mayor que < menor que == igual que 
 EJ1=let n1 = parseInt(process.argv[2]);
     let n2 = parseInt(process.argv[3]);
-
     if (n1 > n2) {
         console.log(`El numero ${n1} es mayor que ${n2}`);
     }else{
         console.log(`El numero ${n2} es mayor que ${n1}`);
     }
-EJ2=
+EJ2=let num = parseInt(process.argv[2]);
+    if (num % 2 == 0){
+        console.log("Es divisible por 2")
+    }else{
+        console.log("No es divisible por 2")
+    }
